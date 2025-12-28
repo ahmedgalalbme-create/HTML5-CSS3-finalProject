@@ -1,0 +1,494 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav 
+{
+    background-color: #004E45;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+nav ul
+{
+    list-style: none;
+    color: #FDFBF2;
+    display: flex;
+    justify-content: flex-start;
+   gap: 50px;
+}
+nav ul a
+{
+    text-decoration: none;
+    color: #FDFBF2;
+    display: flex;
+    justify-content: flex-start;
+   gap: 50px;
+}
+nav img 
+{   
+    width:  100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;  
+    
+}
+nav div{
+    display: flex;
+    gap: 20px;
+}
+.login
+{
+    all: unset;
+    background-color: transparent;
+    color: #FDFBF2;
+    border: 1px solid #FDFBF2;
+    padding: 10px;
+    width: 75px;
+    text-align: center;
+}
+.Chart
+{
+    all: unset;
+    background-color: #CFA855;
+    color: #004E45;
+    border: 1px solid #FDFBF2;
+    padding: 10px;
+    width: 75px;
+    text-align: center;
+    font-weight: bold;
+}
+.hero
+{
+    height: 500px;
+    background-color: #5DBFB6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero img
+{
+    height: 490px;
+    width: 450px;
+}
+.heroLeft
+{
+    text-align: center;
+}
+.heroLeft h1
+{
+    font-size: 64px;
+    color: #E8D6A6;  /*edit this coloooooooooooooooooooooooooor*/
+    line-height: 1.1;
+   
+    
+}
+.heroLeft p
+{
+    font-size: 18px;
+    color: #FDFBF2;
+    
+    
+}
+.productsButton
+{
+    all: unset;
+    background-color: #CFA855;
+    color: #004E45;
+    border: 1px solid #004E45;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.learnMore
+{
+    all: unset;
+    background-color: #004E45;
+    color: #CFA855;
+    border: 1px solid #CFA855;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.Categories
+{
+    background-color: rgb(245, 245, 225);
+    /* height: 500px; */
+    color: #2C2C2C;
+    padding: 20px;
+}
+.giftsCategories
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.giftsCategories img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bestSellerCategories 
+{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;  
+}
+.bestSellerCategories img
+{
+    width: 288px;
+    height: 288px;
+    border-radius: 10%;
+}
+.brandCategories
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.brandCategories img
+{
+
+    width: 120px;
+    height: 124px;
+    
+}
+.Accessories
+{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;  
+}
+.Accessories img
+{
+    width: 288px;
+    height: 288px;
+    border-radius: 10%;
+}
+.Arrivals
+{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;  
+}
+.Arrivals img
+{
+    width: 288px;
+    height: 288px;
+    border-radius: 10%;
+}
+
+/* LOGIN PAGE */
+.loginPage {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 225);
+}
+
+.loginCard {
+    background-color: #FDFBF2;
+    width: 350px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.loginCard h1 {
+    color: #004E45;
+    margin-bottom: 10px;
+}
+
+.loginCard p {
+    color: #2C2C2C;
+    margin-bottom: 30px;
+}
+
+.loginCard form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.loginCard input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.loginCard input:focus {
+    outline: none;
+    border-color: #004E45;
+}
+
+.loginCard span {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.loginCard a {
+    color: #004E45;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+:root{
+    
+    --textColor: #1b2741;
+
+    --sectionBack: #f7f6f9;
+}
+*{
+    
+    box-sizing: border-box;
+    
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: 
+    var(--bodyBack);
+    min-height: 100vh;
+}
+.container{
+    width: 80vw;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 50px;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.header h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    color: var(--textColor);
+}
+.products{
+    width: 100%;
+    align-self: center;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.product{
+    position: relative;
+    background-color: var(--sectionBack);
+    width: 300px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.image{
+    width:100%;
+    height: 60%;
+    display: grid;
+    place-content: center;
+}
+.image img{
+    width: 240px;
+}
+.namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.namePrice h3{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: var(--textColor);
+}
+.namePrice span{
+    font-size: 1.5em;
+    color: var(--starColor);
+}
+.product p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.stars svg{
+    font-size: 1.3em;
+    color: var(--starColor);
+}
+.bay{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.bay button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--textColor);
+    color: var(--sectionBack);
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.bay button:hover{
+    transform: scale(1.1);
+}
+
+.services {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("./Assets/collection1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.section-title {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.55);
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    background: rgba(0, 0, 0, 0.75);
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #0b5345;
+    color: #ffffff;
+    padding: 60px 80px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-col h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.footer-col ul li:hover {
+    text-decoration: underline;
+}
+
+.footer-btn {
+    margin-top: 20px;
+    background-color: #d4af5d;
+    color: #0b5345;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-col input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 0;
+    width: 100%;
+    color: #fff;
+    outline: none;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
