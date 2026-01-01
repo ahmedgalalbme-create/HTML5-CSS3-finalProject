@@ -11,12 +11,14 @@ if (cart.length === 0) {
         var price = document.createElement("h4");
         var img = document.createElement("img");
         var removeBtn = document.createElement("button");
+        
 
         title.textContent = product.name;
         price.textContent = "$" + product.price;
         img.src = "images/" + product.photo;
 
         removeBtn.textContent = "Remove";
+        removeBtn.className = "add-cart";
         removeBtn.onclick = function () {
             removeFromCart(index);
         };

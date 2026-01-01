@@ -4,42 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Products</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./products.html">Products</a></li>
-                <li><a href="./login.html">Login</a></li>
-            </ul>
-            <img src="/Assets/logo.png" alt="">
-            <div>
-                <button class="login" onclick="window.location.href='login.html'">Log In</button>
-                <button class="Chart" onclick="window.location.href='cart.html'">Cart</button>
 
-            </div>
-        </nav>
-    </header>
-<main>
-    <div class="container">
-
-        <div class="header">
-            <h1>products</h1>
+<header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./login.html">Login</a></li>
+        </ul>
+         <img src="logo.png" alt="">
+        <div>
+            <button class="login" onclick="window.location.href='login.html'">Log In</button>
+            <button class="Chart" onclick="window.location.href='cart.html'">Cart</button>
         </div>
-        <input type="text" id="s">
-        <input type="button" value="Serach" onclick="serach()">
-        <div id="products" class="products"></div>
+    </nav>
+</header>
+
+<main>
+    <div class="shop-layout">
+
+        
+        <aside class="filter">
+            <h2>Filter</h2>
+
+            <h4>Price</h4>
+            <label><input type="checkbox" value="low" onclick="filterPrice()"> Under $20</label>
+            <label><input type="checkbox" value="mid" onclick="filterPrice()"> $20 - $40</label>
+            <label><input type="checkbox" value="high" onclick="filterPrice()"> Above $40</label>
+        </aside>
+
+        <section class="container">
+
+            <div class="header">
+                <h1>Products</h1>
+            </div>
+
+            <div class="search-box">
+                <input type="text" id="s" placeholder="Search flowers...">
+                <button onclick="serach()">Search</button>
+            </div>
+
+            <div id="products" class="products"></div>
+        </section>
+
     </div>
-    </main>
-    
-    <script src="script.js"></script>
+</main>
 
-   
-
+<script src="script.js"></script>
 </body>
-
 </html>
